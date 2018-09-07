@@ -1,0 +1,23 @@
+{
+    "patients": [
+        {
+            "status": "Received", 
+            "name": "Adam Saleh", 
+            "DOB": "07/11/1997", 
+            "counter": "3", 
+            "number": "+12812291620", 
+            "incomingmessage": "Hello ", 
+            "outgoingmessage": "Your Physician has been notified."
+        }, 
+        {
+            "incominggmessage": "none", 
+            "status": "Received", 
+            "name": "Sujana Balla", 
+            "DOB": "07/11/1997", 
+            "counter": "0", 
+            "number": "+18327273422", 
+            "incomingmessage": "Yes", 
+            "outgoingmessage": "Glad to hear! We will continue to follow up with you"
+        }
+    ]
+}
