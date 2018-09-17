@@ -32,12 +32,11 @@ def incoming_sms():
         #need to search through the patient file and check that the patient exists. If he/she doesn't, a new profile needs to be created
         exist = False
         index = 0
-        for k in range(len(patientfile['patients'])):
-            index = k+1
+        for k in patientfile['patients']:
             if k['number'] == incnumber:
                 exist = True
                 print exist 
-       
+
         # determines action to be taken according to whether or not patient profile exists 
         if exist == True:
             for i in patientfile['patients']:
