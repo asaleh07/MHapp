@@ -115,8 +115,8 @@ def alertdoc(patientfile,patientindex):
     send_sms(docnumber,outmessage)
 
 def send_sms(patientnum,outmessage):
-    account_sid = 'AC57f5efedc17876b5451506216cad8cad'
-    auth_token = '1feccb85dc45285ce71988587d33cf39'
+    account_sid = 
+    auth_token = 
     client = Client(account_sid, auth_token)
 
     message = client.messages \
